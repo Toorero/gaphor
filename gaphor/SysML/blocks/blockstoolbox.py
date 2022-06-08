@@ -89,18 +89,6 @@ blocks = ToolSection(
             ),
         ),
         ToolDef(
-            "toolbox-enumeration",
-            gettext("Enumeration"),
-            "gaphor-enumeration-symbolic",
-            "<Shift>W",
-            new_item_factory(
-                uml_items.EnumerationItem,
-                UML.Enumeration,
-                config_func=namespace_config,
-            ),
-            handle_index=SE,
-        ),
-        ToolDef(
             "toolbox-primitive",
             gettext("Primitive"),
             "gaphor-primitive-symbolic",
